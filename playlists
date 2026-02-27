@@ -1,13 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> insert here </title>
+    <title>Playlists - SpotiPlay Collection</title>
 </head>
 
-<body>
-    
-</body>
+<body bgcolor="#0e3023" background="images/smoke.webp" link="#cccccc">
+    <font face="Monospace" color="#cccccc">
 
+    <!--Header Section-->
+    <table align="center" width="80%" cellspacing="15" bgcolor="#0e3023">
+        <tr align="center" >
+            <td><p align="left"><font face="Arial Black" size="6"><b>SpotiPlay Collection</b></font></p></td>
+
+            <!--Navigation Section-->
+            <font face="Arial" size="2">
+            <td> <a href="homepage.html"><b>Home</b></a></td>
+            <td> <a href="playlists.html"><b>Playlists</b></a></td>
+            <td> <a href="songs.html"><b>Songs</b></a></td>       
+            <td> <a href="about.html"><b>About Us</b></a></td>   
+            </font>
+        </tr>
+    </table>
+
+    <!-- Intro Section -->
+    <table align="center" cellpadding="15" cellspacing="10" width="80%">
+        <tr>
+            <td>
+                <p align="center"><font face="Arial Black" size="4"><b>FEATURED PLAYLISTS</b></font></p>
+                <hr width="60%" color="grey"><hr width="70%" color="grey">
+                <p align="center"><font size="2"><i>Explore curated playlists by IrreGIT members, perfect for study, chill, or weekend vibes.</i></font></p>
+                <hr width="70%" color="grey"><hr width="60%" color="grey">
+            </td>
+        </tr>
+    </table>
+
+    <!--Gallery Table-->
+    <table align="center" cellpadding="15" cellspacing="10" width="80%">
+        <!-- First row of playlists -->
+        <tr>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Focus Flow"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist1.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Junel Arellano</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: Classical • Mood: Productive • Tracks: 102</font></p>
+            </td>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Bare Minimum Enjoyer"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist2.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Leona Blancaflor</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: R&B • Mood: Laid-back • Tracks: 70</font></p>
+            </td>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Weekend Reset"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist3.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Gabrielle Sumergido</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: Chillwave • Mood: Refreshing • Tracks: 45</font></p>
+            </td>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Moonlight R&B"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist4.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Christie Jude Tarre</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: R&B • Mood: Confident • Tracks: 89</font></p>
+            </td>
+        </tr>
+
+        <!-- Second row of playlists -->
+        <tr>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Pop Energizer"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist5.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Junel Arellano</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: Pop • Mood: Energetic • Tracks: 72</font></p>
+            </td>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Fairy Tale Tunes"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist6.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Leona Blancaflor</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: Soundtrack • Mood: Nostalgic • Tracks: 34</font></p>
+            </td>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Chill Nights"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist7.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Gabrielle Sumergido</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: R&B • Mood: Chill • Tracks: 39</font></p>
+            </td>
+            <td align="center" bgcolor="#0e3023">
+                <h5>"Sunset Strums"</h5>
+                <hr width="70%" color="#cccccc">
+                <img src="images/playlist8.jpg" width="200" height="250">
+                <hr width="70%" color="#cccccc">
+                <p><font size="2"><i>by Christie Jude Tarre</i></font></p>
+                <hr width="70%" color="#cccccc">
+                <p><font size="1">Genre: Indie Pop • Mood: Relaxed • Tracks: 62</font></p>
+            </td>
+        </tr>
+    </table>
+    <br><hr width="80%">
+
+    <!--Now Playing Section-->
+    <table align="center" width="80%" bgcolor="#111111" cellpadding="15">
+        <tr bgcolor="#111111">
+            <td colspan="3" align="left">
+                <b>Now Playing:</b> "Moonlight R&B" – Christie Jude Tarre
+            </td>
+            <td align="right">
+                3:45
+            </td>
+        </tr>
+        <tr align="center" bgcolor="#111111">
+            <td>◄◄</td>
+            <td>▶</td>
+            <td>►►</td>
+            <td>Volume: ████████████████░</td>
+        </tr>
+    </table>
+    <br><br><hr>
+
+    <p align="center"><font size="1">
+        © 2026 CMSC 126 - Web Programming
+        <br>University of the Philippines Visayas
+    </font></p>
+    </font>
+</body>
 </html>
